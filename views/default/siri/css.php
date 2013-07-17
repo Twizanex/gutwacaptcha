@@ -2,7 +2,7 @@
 /**
  * sirikinasa CSS
  *
- * @package Blog
+ * @package Elgg captcha
 */
 ?>
 

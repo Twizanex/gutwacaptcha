@@ -1,17 +1,32 @@
 NAME:
 
-    Securimage - A PHP class for creating captcha images and audio with many options.
+  GutwaCaptcha uses Securimage class - A PHP class for creating captcha images and audio with many options.
+  
+VERSION: Elgg Captcha 1.8.14
 
-VERSION: 3.2RC2
+
+
+
+Let's try something different:
+
+
+With only the French language file of the groups plugin installed the language completeness of French was shown at ~9.5%. Next I installed also the main Elgg language file to bring the completeness up to ~44%. Now, it seemed to work without issues regardless of site cache on or off. I could switch between languages both in the site settings and also when logging in as normal user and changing language in user settings.
+
+So, I suspect the following (but I have not yet found out any hint in Elgg's code why this should be the case): if the language completeness is too low selecting this language is either not possible at all (see first test with an "identical" french langauage file for groups plugin) or you get at least a problem with changing the language when site cache is turned on.
+
+I would suggest for you to download the French language pack here from the site and to install at least the main language file and a few others - the larger they are the better - to bring up the language completeness up to at least 40-50%. I'm looking forward to hear from you, if this might solve the issue for you.
+
+It's a pity the French language pack is on Elgg 1.8.3 level still. So, you would not get a perfect translation of everything. But you could at least use it as starting point and add the missing strings/correct any changes. It should not break your site when using outdated language files but it surely is not a long-term solution.
 
 AUTHOR:
 
-    Drew Phillips <drew@drew-phillips.com>
+    Tom Ondiba <twizanex@yahoo.com>
+    Website: http://www.twizanex.com/
 
 DOWNLOAD:
 
     The latest version can always be
-    found at http://www.phpcaptcha.org
+    found at http://community.elgg.org/plugins/1172111/1.8.Z/elgg-captcha
 
 DOCUMENTATION:
 
@@ -22,6 +37,7 @@ REQUIREMENTS:
     PHP 5.2 or greater
     GD  2.0
     FreeType (Required, for TTF fonts)
+    PDO (if using Sqlite, MySQL, or PostgreSQL)
 
 SYNOPSIS:
 
@@ -52,7 +68,8 @@ DESCRIPTION:
 
 
 COPYRIGHT:
-    Copyright (c) 2012 Drew Phillips
+    Copyright (c) 2013 Tom Ondiba
+    Copyright (c) 2013 Drew Phillips
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without modification,
@@ -79,7 +96,7 @@ COPYRIGHT:
     -----------------------------------------------------------------------------
     The WavFile.php class used in Securimage by Drew Phillips and Paul Voegler is
     used under the BSD License.  See WavFile.php for details.
-    Many thanks to Paul Voegler (http://voegler.eu/audio/pub) for contributing to
+    Many thanks to Paul Voegler (http://www.voegler.eu/) for contributing to
     Securimage.
 
     -----------------------------------------------------------------------------

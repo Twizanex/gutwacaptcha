@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br />
  * File:        securimage_play.php<br />
@@ -33,31 +32,20 @@
  * @package Securimage
  *
  */
- 
- /* http://www.phpcaptcha.org/faq/#comment-1193
- * It is common for other software platforms (forums, content management systems, form processors etc.) 
- *to use a session name other than the PHP default. If this is the case, you must determine what session name 
- *is used by the software and use the same session name in securimage_show.php and securimage_play.php.
- *
- *A non-default session name can be passed to Securimage so it can share a session with another software platform 
- *with the following code: $img->session_name = ‘your_session_name’;
- *
- *Note: Securimage will NEVER destroy a session so it is safe to use with systems that persist user data with sessions; 
- *it only changes its own session variables.
- */
-
-
+// global $CONFIG;
 
 require_once dirname(__FILE__) . '/securimage.php';
 
+include(dirname(__FILE__) . "/controllemix.php");
+
 $img = new Securimage();
 
-// You can customize the image by making changes below, some examples are included - remove the "//" to uncomment
+$controlleme = new ControllePlease();
+			
+$obagwa = $controlleme-> kematu();
 
-// $img->session_name = '__elgg_session'; //Added by thomas to see if the elgg session_name will work   '__elgg_session'
-// $img->session_name = ‘Elgg’; //Added by thomas to see if the elgg session_name will work
-// To use an alternate language, uncomment the following and download the files from phpcaptcha.org
-// $img->audio_path = $img->securimage_path . '/audio/es/';
+// Selects an alternate language automatically
+  $img->audio_path = $img->securimage_path . '/audio/' . $obagwa . '/';
 
 // If you have more than one captcha on a page, one must use a custom namespace
 // $img->namespace = 'form2';

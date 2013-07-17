@@ -7,6 +7,5 @@ together with this text file.
 
 I would appreciate very much to see what you have done with it anyway.
 
-yann le coroller 
-www.yannlecoroller.com
-yann@lecoroller.com
+Tom Ondiba
+twizanex@yahoo.com
