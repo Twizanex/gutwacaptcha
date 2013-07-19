@@ -24,6 +24,11 @@
 
 function gutwacaptcha_init() 
    	 {
+   	 //  if the user is already logged in...No need to check or load the staff bellow.. 
+	//this is designed with the site performance in mind :)
+        if (elgg_is_logged_in()) return;
+   	 
+   	 
 	  //put the check at the very end
 	elgg_extend_view('register/extend', 'gutwacaptcha/register', 1000);
 	elgg_extend_view('forgottenpassword/extend', 'gutwacaptcha/register', 999);
@@ -83,10 +88,17 @@ function gutwacaptcha_register_hook() {
 		
 /*%*************TM: gutwacaptcha language ****************************%*/
 	
-	require_once(dirname(__FILE__) . "/lib/luga_functions.php");
+	
 		
 function elggcaptcha_language_selector_plugins_boot(){
-		
+	
+	//  if the user is already logged in...No need to check or load the staff bellow.. 
+	//this is designed with the site performance in mind :)
+      //  if (elgg_is_logged_in()) return;
+	
+	require_once(dirname(__FILE__) . "/lib/luga_functions.php"); // moved this from the top ot elggcaptcha function above
+	
+	
 	// Load system configuration
 		
 	global $CONFIG;	
