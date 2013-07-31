@@ -26,17 +26,17 @@ Key benefits of Elgg Captcha include:
        captcha technology and build any captcha you need. You also have access to additional plugins material 
        to test and learn.
        
-    6. Improved Scalability: Captcha data storage  is made easier and provide significantly improved scalability and 
-       reduced storage requirements for your Elgg database.
+    6. Improved Scalability: Captcha data storage  is made easier and provide significantly improved 
+       scalability and reduced storage requirements for your Elgg database.
        
-    7. Enhanced Usability: The first time your users see the register page or lost password page, they will see 
-       significant captcha improvements if previously you were using google captcha. In short, Elgg Captcha is now  
-       even easier to use.
+    7. Enhanced Usability: The first time your users see the register page or lost password page, they will 
+       see significant captcha improvements if previously you were using google captcha. In short, Elgg 
+       Captcha is now even easier to use.
        
     8. And many more...
 
-If the Plugin is helpful to you, recommend it  by clicking Recommend button next to Download button so that others 
-that benefit from it....
+If the Plugin is helpful to you, recommend it  by clicking Recommend button next to Download button so that 
+others that benefit from it....
 
  
 
