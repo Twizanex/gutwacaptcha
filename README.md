@@ -14,10 +14,10 @@ Key benefits of Elgg Captcha include:
 
   
     1. If one day External Captcha companies you are using to fight spam or Google changes their 
-       minds or API service Outage or goes down, service disruptions or  google "wake up on the wrong 
-       side of the bed -- by feeling grumpy, irritable; or become easily annoyed by your site users" and
-       if your website is using Google chaptcha services, your site might be in a total confusion or your 
-       web and mobile users may may experience issues accessing your site !
+       minds or API service Outage or goes down, service disruptions or  google "wake up on the 
+       wrong side of the bed -- by feeling grumpy, irritable; or become easily annoyed by your site 
+       users" and if your website is using Google chaptcha services, your site might be in a total 
+       confusion or your web and mobile users may may experience issues accessing your site !
     
     2. Elgg Captcha has Sound just like google
     3. The Captcha reloads very nicely....
