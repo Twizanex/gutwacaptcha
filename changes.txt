@@ -1,0 +1,3 @@
+
+
+removed  views/default/forms/register.php  so that profile_manager can work with gutwacaptcha
