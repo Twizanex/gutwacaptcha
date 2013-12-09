@@ -16,17 +16,17 @@ $french = array(
 	
 	// catch the automated machines
 	
-	'gutwacaptcha:colour' => 'Background color of the register from',
-        'gutwacaptcha:emailsiteowner' => 'Email me spammers address',
-        'gutwacaptcha:myemailaddress' => 'Email address to send spammers addresses to',
-        'gutwacaptcha:spammercaught' => 'Spammer caught',
-        'gutwacaptcha:spammerdetails' => 'The email address of the spammer is %s',
+	'gutwacaptcha:colour' => 'Couleur de fond du formulaire d\'enregistrement',
+        'gutwacaptcha:emailsiteowner' => 'Envoyez-moi les adresses des spammeurs',
+        'gutwacaptcha:myemailaddress' => 'Adresse e-mail à laquelle envoyer les adresses des spammeurs',
+        'gutwacaptcha:spammercaught' => 'Spammer attrapé',
+        'gutwacaptcha:spammerdetails' => 'L\'adresse email du spammeur est %s',
 
 	// the language selection part 
-	'gutwacaptcha:admin:settings:min_completeness' => 'Minimum language completeness (e.g. 1)',
-	'gutwacaptcha:admin:settings:show_in_header' => 'Show language selector in Captcha section?',
-	'gutwacaptcha:admin:settings:autodetect' => 'Enable autodetect of captcha language (for non-logged in users)',
-	'gutwacaptcha:admin:settings:show_images' => 'Show images of language/country (if available)',
+	'gutwacaptcha:admin:settings:min_completeness' => 'Exhaustivité minimum de la langue (p.ex. 1)',
+	'gutwacaptcha:admin:settings:show_in_header' => 'Afficher un sélecteur de langue dans la section Captcha?',
+	'gutwacaptcha:admin:settings:autodetect' => 'Activer la détection automatique de la langue du Captcha (pour les utilisateurs non-connectés)',
+	'gutwacaptcha:admin:settings:show_images' => 'Afficher les images de la langue / du pays (si disponible)',
 
 );
 
